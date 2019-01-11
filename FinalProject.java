@@ -167,7 +167,7 @@ public class FinalProject {
 		//    a Machine.
 		List<Pe> peList1 = new ArrayList<Pe>();
 
-		int mips = 1000;
+		int mips = 2500;
 
 		// 3. Create PEs and add these into the list.
 		//for a quad-core machine, a list of 4 PEs is required:
@@ -186,7 +186,7 @@ public class FinalProject {
 		int hostId=0;
 		int ram = 44500; //host memory (MB)
 		long storage = 10000000; //host storage (MB) 
-		int bw = 10000; //(MB)
+		int bw = 100000; //(MB)
 
 		hostList.add(
     			new Host(
